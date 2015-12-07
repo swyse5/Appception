@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2015, 8:56:03 AM
+    Author     : meghanstyczynski
+*/
+
+/*
+#header{
+ 	
+    text-align:center;
+ 	
+    font-size: 35;
+ 	
+    margin:10%;
+ 	
+   border:2px;
+ 	
+    border-style:dashed;
+}
+*/
+
+body, html {
+  margin: 0px;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+
+//header {
+  //box-sizing: border-box;
+  //border: 2px dashed #000;
+  //width: 100%;
+  //height: auto;
+//}
+
+#header{
+  text-align:center;
+  font-size: 35;
+	/*  Change margin to px instead of % */
+	/*  This says add 50px to the top, 0px to the right, 50px to the bottom and 0 to the left  */
+  margin: 50px 0px;
+	
+  border:2px;
+  border-style:dashed;
+  }
+  
+header h1 {
+  padding: 25px 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.form-container {
+	margin-top: 10%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+
+#signup-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
